@@ -75,21 +75,18 @@ $(document).ready(function() {
       undo.click(function() {
         var currentTask = model.undoTask.pop();
         model.redoTask.push(currentTask);
-				console.log(model.undoTask);
       })
 
       redo.click(function() {
         var currentTask = model.redoTask.pop();
         model.undoTask.push(currentTask);
-				console.log(model.undoTask);
       })
 
       view.render();
 
     },
     render: function() {
-			console.log(model.undoTask);
-			actions(model.undoTask[controller.getLength()-1]);
+      actions(model.undoTask[controller.getLength()-1]);
     }
   }
 
