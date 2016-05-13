@@ -1,0 +1,33 @@
+.main {
+  margin-top: 100px;
+  height: 100px;
+  width: 100px;
+  border: 1px black solid;
+}
+
+.color {
+  height: 32px;
+  width: 32px;
+  float: left;
+  margin-left: 10px;
+}
+
+.red {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.blue {
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+.green {
+  background-color: green;
+  border: 1px solid green;
+}
+
+.transparent {
+  background-color: transparent;
+  border: 1px solid black;
+}
