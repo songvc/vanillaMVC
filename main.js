@@ -26,19 +26,19 @@ $(document).ready(function() {
   var controller = {
     paintRed: function() {
       model.undoTask.push('red');
-			view.render();
+      view.render();
     },
     paintBlue: function() {
       model.undoTask.push('blue');
-			view.render();
+      view.render();
     },
     paintGreen: function() {
       model.undoTask.push('green');
-			view.render();
+      view.render();
     },
     paintClear: function() {
       model.undoTask.push('clear');
-			view.render();
+      view.render();
     },
     getLength: function() {
       return model.undoTask.length;
