@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
   var actions = function(str) {
     var $main = $('.main');
     switch (str) {
@@ -91,5 +89,3 @@ $(document).ready(function() {
   }
 
 	view.init();
-
-});
